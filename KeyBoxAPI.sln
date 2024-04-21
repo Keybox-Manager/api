@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyBoxAPI", "KeyBoxAPI\KeyBoxAPI.csproj", "{EE39265F-6EA9-45D1-AEEF-B4DE319E0D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyBoxAPI.DAL", "KeyBoxAPI.DAL\KeyBoxAPI.DAL.csproj", "{C6116E36-16CA-4F94-BB98-5FBA3C43142A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyBoxAPI.Core", "KeyBoxAPI.Core\KeyBoxAPI.Core.csproj", "{AF186DAB-9F7A-4C63-A189-FACFBF1DBEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyBoxAPI.Application", "KeyBoxAPI.Application\KeyBoxAPI.Application.csproj", "{D828669D-7AFF-4833-AE87-72E0B5D2293D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE39265F-6EA9-45D1-AEEF-B4DE319E0D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE39265F-6EA9-45D1-AEEF-B4DE319E0D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE39265F-6EA9-45D1-AEEF-B4DE319E0D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE39265F-6EA9-45D1-AEEF-B4DE319E0D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6116E36-16CA-4F94-BB98-5FBA3C43142A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6116E36-16CA-4F94-BB98-5FBA3C43142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6116E36-16CA-4F94-BB98-5FBA3C43142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6116E36-16CA-4F94-BB98-5FBA3C43142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF186DAB-9F7A-4C63-A189-FACFBF1DBEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF186DAB-9F7A-4C63-A189-FACFBF1DBEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF186DAB-9F7A-4C63-A189-FACFBF1DBEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF186DAB-9F7A-4C63-A189-FACFBF1DBEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D828669D-7AFF-4833-AE87-72E0B5D2293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D828669D-7AFF-4833-AE87-72E0B5D2293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D828669D-7AFF-4833-AE87-72E0B5D2293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D828669D-7AFF-4833-AE87-72E0B5D2293D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37B91EFB-AEAB-4B6E-ABE0-EC9AF5B17587}
+	EndGlobalSection
+EndGlobal
