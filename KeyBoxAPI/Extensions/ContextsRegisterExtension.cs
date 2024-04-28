@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using KeyBoxAPI.DAL.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace KeyBoxAPI.Extensions;
 
@@ -6,8 +7,8 @@ internal static class ContextsRegisterExtension
 {
     public static IServiceCollection AddContexts(this IServiceCollection services, IConfiguration configuration)
     {
-        //var connectionString = configuration.GetConnectionString(nameof(OnlineStoreBycleDbContext));
-        //services.AddDbContext<OnlineStoreBycleDbContext>(x => x.UseNpgsql(connectionString), ServiceLifetime.Transient);
+        var connectionString = configuration.GetConnectionString(nameof(KeyBoxDbContext));
+        services.AddDbContext<KeyBoxDbContext>(x => x.UseNpgsql(connectionString), ServiceLifetime.Transient);
 
         return services;
     }
